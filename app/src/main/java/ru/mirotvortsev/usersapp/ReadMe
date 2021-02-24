@@ -1,0 +1,11 @@
+/***
+* @ author Vasily Mirotvortsev
+* This project uses the following libraries:
+* Glide
+* Retrofit2
+* GSON
+* RXJAVA2
+* Chipnavigation
+* Room
+* LifeCycle
+**/
