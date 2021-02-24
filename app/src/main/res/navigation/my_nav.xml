@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/usersListActivity">
+
+    <activity
+        android:id="@+id/usersListActivity"
+        android:name="ru.mirotvortsev.usersapp.screens.usersList.UsersListActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/aboutProgramActivity"
+        android:name="ru.mirotvortsev.usersapp.screens.aboutProgram.AboutProgramActivity"
+        android:label="activity_about_program"
+        tools:layout="@layout/activity_about_program" />
+</navigation>
